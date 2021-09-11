@@ -59,7 +59,7 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
+  --bs-body-color: #2c3e4f;
   --bs-body-bg: #fff;
 }
 
@@ -11430,6 +11430,7 @@ html {
 }
 .masthead .masthead-avatar {
   width: 15rem;
+  border-radius: 50%;
 }
 
 @media (min-width: 992px) {
@@ -11493,4 +11494,8 @@ html {
 
 .copyright {
   background-color: #1a252f;
+}
+
+.marquee {
+  margin: 48px;
 }
